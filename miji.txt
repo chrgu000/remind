@@ -290,4 +290,4 @@ ip差异校验：SMS_153795299
 我房订餐：
 http://dingcan.wofang.org/
 
-s
+git windows生成密钥：ssh-keygen -t rsa -C "email@email.com","email@email.com"

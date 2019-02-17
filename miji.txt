@@ -291,3 +291,7 @@ ip差异校验：SMS_153795299
 http://dingcan.wofang.org/
 
 git windows生成密钥：ssh-keygen -t rsa -C "email@email.com","email@email.com"
+
+phpstan
+install: composer require --dev phpstan/phpstan
+use: vendor/bin/phpstan analyse src tests

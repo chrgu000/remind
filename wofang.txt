@@ -26,3 +26,6 @@ http://dingcan.wofang.org/
 ������ϵͳ����  �����Ż� �ͷѹ������
 
 /api/organization/agent/
+php artisan member:delete-custom new_source
+'new_source'    => '新房/报备管理'
+C:\Users\feng\code\fxerp\app\Console\Commands\Member\AgentCustom.php

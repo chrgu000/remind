@@ -1,16 +1,17 @@
 APP_ENV=local
 APP_DEBUG=true
-APP_KEY=base64:+2wUXy5LwifsSPyyGO82FBUAaD0V3FknZiU8Er+B2iU=
+APP_KEY=base64:P4NtH6HBWFNoC3WZYxXBw2Feh8FC2JNhdOUjlINVHmc=
 APP_LOCAL=wf
-APP_OPEN_WEB_SYNC=true
+APP_OPEN_WEB_SYNC=false
 
-ADMIN_URL = erp.fx.local
-MEMBER_URL = member.fx.local
-API_URL = api.fx.local
-WEB_URL = website.fx.local
-DC_URL = dc.fx.local
-WEB_SYNC_URL = sync.fx.local
-MEMBER_WAP_URL = memberwap.fx.local
+ADMIN_URL = erp.fx.co
+MEMBER_URL = member.fx.co
+API_URL = api.fx.co
+WEB_URL = website.fx.co
+DC_URL = dc.fx.co
+WEB_SYNC_URL = sync.fx.co
+M_URL =m.fx.co
+MEMBER_WAP_URL = report.fx.co
 
 LIFE_TIME=60
 
@@ -41,8 +42,8 @@ REDIS_NO_1=1
 REDIS_NO_2=2
 
 SCOUT_DRIVER=null
-SCOUT_QUEUE=false
-SCOUT_ELASTIC_HOST=127.0.0.1:9200
+SCOUT_QUEUE=null
+SCOUT_ELASTIC_HOST=null
 
 MAIL_DRIVER=smtp
 MAIL_HOST=mailtrap.io
@@ -59,12 +60,8 @@ PUSHER_APP_ID=
 PUSHER_APP_KEY=
 PUSHER_APP_SECRET=
 
+TEST_ADMIN_ID=910
+TEST_STORE_AGENT_ID=56
+TEST_AGENT_ID=8
+
 API_CRYPT_KEY=ZZ8cUkhZZbDXwoWF
-API_STANDARDS_TREE=vnd
-API_SUBTYPE=wofang
-API_PREFIX=api
-API_VERSION=v1
-API_NAME="Wofang API"
-API_CONDITIONAL_REQUEST=false
-API_STRICT=false
-API_DEBUG=true

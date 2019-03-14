@@ -317,3 +317,6 @@ $arr = $arr1 + $arr2;
 页面权限(路由权限)
 操作权限
 数据权限
+
+
+php artisan member:delete-custom new_source

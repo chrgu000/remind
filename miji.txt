@@ -298,4 +298,29 @@ use: vendor/bin/phpstan analyse src tests
 
 云之家 199888
 
+<<<<<<< HEAD
 Dracula Official
+=======
+合并两个数组的两种方式
+$arr = array_merge($arr1, $arr2);
+要注意：如果$arr1或$arr2为null,合并后也为null，所以要先判断一下两个数组是否为null，注意是null,不是空数组array()，空数组是不影响的
+如果是关联数组，相同的键，后面的值会覆盖前面的值；
+如果是索引数组，每个键都不会覆盖，但数组的键都会改变（重新按顺序从0往后排）
+
+$arr = $arr1 + $arr2;
+如果是关联数组，相同的键，前面的值会覆盖后面的值；
+如果是索引数组，相同的键，前面的值会覆盖后面的值；
+
+这个是我以前的笔记 不知道对不对 可以参考一下
+
+
+
+
+大型系统的权限管理如何实现
+页面权限(路由权限)
+操作权限
+数据权限
+
+
+php artisan member:delete-custom new_source
+>>>>>>> bf7f63a078b1bc81418c493997602dfa46259d5e

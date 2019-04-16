@@ -26,3 +26,32 @@ http://dingcan.wofang.org/
 ������ϵͳ����  �����Ż� �ͷѹ������
 
 /api/organization/agent/
+php artisan member:delete-custom new_source
+'new_source'    => '新房/报备管理'
+C:\Users\feng\code\fxerp\app\Console\Commands\Member\AgentCustom.php
+
+
+
+
+
+点击连接，选择MySQL，弹出 “MySQL - 新建连接” 窗口
+
+常规：
+连接名：房信外网数据库
+主机名或IP地址：rm-bp1wsv6ny70qwz459.mysql.rds.aliyuncs.com
+端口：3306
+用户名：pasa
+密码：123456asm.
+勾选保存密码
+
+SSH：
+勾选使用SSH通道
+主机名或IP地址：47.97.190.237
+端口：7080
+用户名：erp
+验证方式：密码
+密码：erp!@#12300.
+勾选保存密码
+
+
+@所有人  TAPD里的需求，按月份管理，已经做完的需求，而且当月的绩效表已经用过了，都拉到“历史需求”目录里，本月的工作放在当月的目录里，而且需求不要放在“未分类”里，谁建需求谁负责清理，因为部分需求是技术自己的建，每月要定期处理，保持TAPD干净明了。
